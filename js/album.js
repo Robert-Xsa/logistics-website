@@ -6,7 +6,9 @@ const projects = [
   {title:"Forex & Investment Solutions", img:"images/service-5.jpg", desc:"Supported clients with forex trading and investment."},
   {title:"Customs Clearance Management", img:"images/service-6.jpg", desc:"Streamlined customs processes to reduce clearance times."},
   {title:"Port Operations Support", img:"images/service-7.jpg", desc:"Enhanced cargo handling at port terminals for efficiency."},
-  {title:"Financial Advisory Services", img:"images/service-8.jpg", desc:"Provided financial advisory to small and medium enterprises."}
+  {title:"Financial Advisory Services", img:"images/service-1.jpg", desc:"Provided financial advisory to small and medium enterprises."},
+  {title:" ", img:"images/project1.jpeg", desc:" "}
+  
 ];
 
 let currentPage = 1;
