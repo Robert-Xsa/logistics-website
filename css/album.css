@@ -1,0 +1,79 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.album_view {
+  position: relative;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.album-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  border: none;
+  color: #fff;
+  font-size: 30px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+.album-btn:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.single_project_card img {
+  max-width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.single_project_card h5 {
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.single_project_card p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer_section {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer_section a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.footer_section a:hover {
+  text-decoration: underline;
+}
