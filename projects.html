@@ -23,7 +23,7 @@
   <link href="css/responsive.css" rel="stylesheet" />
 
   <!--pagenation style-->
-  <link href="css/pagenation.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/album.css" />
 
   
 </head>
@@ -177,20 +177,16 @@
       <h2 class="heading_style">Our Projects</h2>
     </div>
 
-    <div class="row" id="project-container">
-      <!-- Projects will be injected here -->
+    <div class="album_view" id="project-container">
+      <button class="album-btn prev-btn" onclick="manualChange(currentPage-1)">&#10094;</button>
+      <button class="album-btn next-btn" onclick="manualChange(currentPage+1)">&#10095;</button>
     </div>
-
-    <!-- Pagination -->
-    <nav aria-label="Project pagination">
-      <ul class="pagination mt-4" id="pagination">
-        <!-- Pagination buttons will be injected here -->
-      </ul>
-    </nav>
-
+    
   </div>
 </section>
 <!-- end projects section -->
+
+
 
 <!-- info section -->
 <section class="info_section ">
@@ -251,7 +247,7 @@
 <!-- Scripts -->
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="js/pagenation.js"></script>
+<script src="js/album.js"></script>
 
 
 </body>
