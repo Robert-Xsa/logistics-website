@@ -492,6 +492,16 @@ a:focus {
   top: -40%;
 }
 
+
+.client_box .client_img img {
+  width: 80px;           /* Adjust size as needed */
+  height: 80px;
+  border-radius: 50%;    /* Makes it circular */
+  object-fit: cover;     /* Ensures image is well-cropped */
+  max-width: 100%;
+}
+
+
 .client_section .carousel-indicators {
   position: absolute;
   top: 115%;
